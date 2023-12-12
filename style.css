@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+.page1{
+    width:100vw;
+   min-height:100vh;
+    position:relative;
+    
+}
+ h1{
+    position:absolute;
+    top:34vh;
+    left:2vh;
+    line-height:22vh;
+    font-size: 28vh;
+    text-transform: uppercase;
+    font-family: futura;
+    letter-spacing: -7px;
+}
+.nav{
+    width:100vw;
+    height:15vh;
+    /* background-color: pink; */
+    /* position:relative; */
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    width:20vw;
+    height:100%;
+    text-transform: uppercase;
+    padding-top:3vh;
+    padding-left: 25px;
+    font-size:2vw;
+    font-family: futura;
+    line-height: 27px;
+    /* position:absolute; */
+    /* top:20px; */
+}
+.navelement{
+    width:65vw;
+    height:100%;
+    display:flex;
+    /* background-color: yellow; */
+    align-items: center;
+    justify-content: end;
+}
+#firstItem{
+    width:10%;
+    height:80%;
+    /* background-color: #fff; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 2.5vh;
+    font-size: 0.8rem;
+    font-family:Helvetica; 
+}
+#secondItem{
+    width:10%;
+    /* background-color: crimson; */
+    height:80%;
+    display: flex;
+    padding-bottom: 2.5vh;
+    align-items: center;
+    font-size: 0.8rem;
+    font-family: helvetica;
+}
+#thirdItem{
+    width:10%;
+    height:80%;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom:2.5vh;
+    font-size: 0.8rem;
+    font-family: helvetica;
+}
+#btn1{
+   width: 20%;
+   height:80%;
+   /* background-color: blue; */
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 2.5vh;
+   font-size: 0.8rem;
+   font-family: helvetica;
+}
+button{
+    width:60%;
+    height:30%;
+    border-radius:7px;
+    /* outline:none; */
+    background-color: black;
+    border:solid 1px black;
+    color:#ffffffce;
+}
+*::selection{
+    color:white;
+    background-color: black;
+}
